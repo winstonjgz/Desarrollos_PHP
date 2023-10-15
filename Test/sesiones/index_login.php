@@ -17,10 +17,11 @@
 
     <form action="login.php" method="POST">
         <label for="">Usuario</label>
-        <input type="text" name="usuario" id="usuario">
+        <input type="text" name="usuario" id="usuario" pattern="[a-zA-Z@.]{8,20}" maxlength="20">
+        <!--Se introducen de minimo 8 hasta 20-->
         <br>
         <label for="">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$.-#]{8,32}" maxlength="32">
         <br><br>
         <button type="submit">Login</button>
     </form>
