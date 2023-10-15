@@ -21,7 +21,7 @@
         <!--Se introducen de minimo 8 hasta 20-->
         <br>
         <label for="">Password</label>
-        <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$.-#]{8,32}" maxlength="32">
+        <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$._#]{8,32}" maxlength="32">
         <br><br>
         <button type="submit">Login</button>
     </form>
